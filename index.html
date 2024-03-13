@@ -5,24 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="desription" content="2024 WSOA3028 demo website">
     <meta name="author" content="Amy Janse van Vuuren">
-    <title>WSOA3028A demo</title>
-</head>
+    <title>WSOA3028A</title>
+</head> 
+
+<header>
+    <div style="background-color:rgb(255, 252, 226);color:rgb(37, 37, 37);padding:20px;">
+        <h1 style="font-size: 3em;"></h1style>2024 WSOA3028</h1>
+    </div>
+</header>
+
+   <style>
+    body{
+        background-color: rgb(37, 37, 37);
+        color:rgb(255, 252, 226);
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    header{
+        text-align: center;
+    }
+
+    .navbar {
+         overflow: hidden;
+         background-color: #333;
+         position: fixed;
+         top: 0;
+         width: 100%;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .navbar a:hover {
+        background: #ddd;
+        color: black;
+    }
+
+    .main {
+        padding: 16px;
+        margin-top: 30px;
+        height: 1500px; /* Used in this example to enable scrolling */
+    }
+   </style>
+
 <body>
-    <header>
-        <h1>2024 WSOA3028</h1>
-    </header>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li><a href="blog.html">Blogs</a> </li>
-        </ul>
-    </nav>
 
-    <main>
-        <p>It's me Amyyyyy</p> 
-    </main>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="blog.html">Blogs</a>
+  <a href="essays.html">Essays</a>
+  <a href="portfolio.html">Portfolio</a> 
+  <a href="about.html">About Me</a>
+</div>
 
-    <footer>Welcome to my ted talk</footer>
-    <img src="Images/Week 1/My Rock.jpg" alt="picture of my rock">
+<div class="main">
+  <h1>Amy's Website</h1>
+  <h2>Welcome to my ted talk</h2>
+  <p><img src="Images/Week 1/My Rock.jpg" alt="picture of my rock"></p>
+</div>
 </body>
 </html>
