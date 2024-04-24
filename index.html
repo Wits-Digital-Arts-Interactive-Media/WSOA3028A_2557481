@@ -6,73 +6,70 @@
     <meta name="desription" content="2024 WSOA3028 website">
     <meta name="author" content="Amy Janse van Vuuren">
     <title>WSOA3028A</title>
-    <script type="module"> import {initialise} from "./scripts/menu.js"</script>
-    initialise ("Home") </script>
+    <script type="module"> import {initialise} from "./scripts/menu.js"
+    initialise ("HOME") </script>
 </head> 
+<style>
+body{
+    background-color: rgb(37, 37, 37);
+    color:rgb(255, 252, 226);
+    font-family: 'Bodoni MT';
+}
 
-<header>
-    <div style="background-color:rgb(255, 252, 226);color:rgb(37, 37, 37);padding:20px;">
-        <h1 style="font-size: 3em;">2024 WSOA3028</h1>
-    </div>
-</header>
+/* .navbar {
+        overflow: hidden;
+        background-color:  rgb(70, 69, 69);
+        position: fixed;
+        top: 0;
+        width: 100%;
+}
 
-   <style>
-    body{
-        background-color: rgb(37, 37, 37);
-        color:rgb(255, 252, 226);
-        font-family: 'Bodoni MT';
-    }
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(255, 252, 226);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+} */
 
-    header{
-        text-align: center;
-    }
+.navbar a:hover {
+    background: rgb(255, 252, 226);
+    color: rgb(37, 37, 37);
+}
 
-    .navbar {
-         overflow: hidden;
-         background-color:  rgb(70, 69, 69);
-         position: fixed;
-         top: 0;
-         width: 100%;
-    }
-
-    .navbar a {
-        float: left;
-        display: block;
-        color: rgb(255, 252, 226);
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-    }
-
-    .navbar a:hover {
-        background: rgb(255, 252, 226);
-        color: rgb(37, 37, 37);
-    }
-
-    .main {
-        padding: 16px;
-        margin-top: 30px;
-        height: 1500px; 
-    }
-   </style>
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; 
+}
+</style>
 
 <body>
 
-<div class="navbar">
+    <header>
+        <h1 style="font-size: 3em;"></h1>
+        <div style="background-color:rgb(255, 252, 226);color:rgb(37, 37, 37);padding:20px;">
+            
+        </div>
+        <nav></nav>
+    </header>
 
-  <a href="blogs.html">BLOG POSTS</a>
-  <a href="designs.html">DESIGNS</a>
-  <a href="essays.html">ESSAYS</a>
-  <a href="portfolio.html">PORTFOLIO</a> 
-  <a href="about.html">ABOUT ME</a>
-</div>
+    <!-- <div class="navbar">
 
-<div class="main">
-  <h1>Amy's Website</h1>
-  <h2>Welcome to my ted talk</h2>
-  <p><img src="Images/Week 1/My Rock.jpg" alt="picture of my rock"></p>
-</div>
+    <a href="./blogs.html">BLOG POSTS</a>
+    <a href="designs.html">DESIGNS</a>
+    <a href="essays.html">ESSAYS</a>
+    <a href="portfolio.html">PORTFOLIO</a> 
+    <a href="about.html">ABOUT ME</a>
+    </div> -->
+
+    <div class="main">
+    <h2>Amy's Website</h2>
+    <h3>Welcome to my ted talk</h3>
+    <p><img src="Images/Week 1/My Rock.jpg" alt="picture of my rock"></p>
+    </div>
 
 </body>
 </html>

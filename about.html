@@ -6,13 +6,9 @@
     <meta name="desription" content="2024 WSOA3028 website">
     <meta name="author" content="Amy Janse van Vuuren">
     <title>WSOA3028A</title>
+    <script type="module"> import {initialise} from "./scripts/menu.js"
+    initialise ("ABOUT ME") </script>
 </head> 
-
-<header>
-    <div style="background-color:rgb(255, 252, 226);color:rgb(37, 37, 37);padding:20px;">
-        <h1 style="font-size: 3em;">2024 WSOA3028</h1>
-    </div>
-</header>
 
    <style>
     body{
@@ -22,11 +18,11 @@
         font-family: 'Bodoni MT';
     }
 
-    header{
+    /* header{
         text-align: center;
-    }
+    } */
 
-    .navbar {
+    /* .navbar {
          overflow: hidden;
          background-color:  rgb(70, 69, 69);
          position: fixed;
@@ -42,7 +38,7 @@
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
-    }
+    } */
 
     .navbar a:hover {
         background: rgb(255, 252, 226);
@@ -57,15 +53,22 @@
    </style>
 
 <body>
+    <header>
+        <h1 style="font-size: 3em;">2024 WSOA3028</h1>
+        <div style="background-color:rgb(255, 252, 226);color:rgb(37, 37, 37);padding:20px;">
+            
+        </div>
+        <nav></nav>
+    </header>
 
-<div class="navbar">
+<!-- <div class="navbar">
 
     <a href="index.html">HOME</a>
     <a href="blogs.html">BLOG POSTS</a>
     <a href="designs.html">DESIGNS</a>
     <a href="essays.html">ESSAYS</a>
     <a href="portfolio.html">PORTFOLIO</a> 
-</div>
+</div> -->
 
 <div class="main">
   <h1>ABOUT ME</h1>
