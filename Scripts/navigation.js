@@ -1,4 +1,3 @@
-// Define the navigation links and their corresponding URLs
 const navLinks = [
     { text: 'HOME', url: '../index.html' },
     { text: 'BLOGS', url: '../blog-posts/blogs.html' },
@@ -8,10 +7,10 @@ const navLinks = [
     { text: 'ABOUT ME', url: '../about/about.html' }
 ];
 
-// Function to create the navigation bar
+
 function createNavigationBar() {
     const navElement = document.querySelector('nav');
-    if (!navElement) return; // Exit if <nav> element not found
+    if (!navElement) return; 
 
     const navList = document.createElement('ul');
 
@@ -27,6 +26,5 @@ function createNavigationBar() {
     navElement.appendChild(navList);
 }
 
-// Call the function to create the navigation bar when the DOM content is loaded
 document.addEventListener('DOMContentLoaded', createNavigationBar);
 
