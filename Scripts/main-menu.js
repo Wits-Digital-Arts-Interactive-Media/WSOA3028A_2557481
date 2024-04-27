@@ -1,10 +1,10 @@
 const menuItems = [
     {name:"HOME", href: "index.html"},
-    {name:"BLOG POSTS", href: "blogs.html"},   
-    {name:"DESIGNS", href: "designs.html"},
-    {name:"ESSAYS", href: "essays.html"},
-    {name:"PORTFOLIO", href: "portfolio.html"},  
-    {name:"ABOUT ME", href: "about.html"},
+    {name:"BLOG POSTS", href: "../blog-posts/blogs.html"},   
+    {name:"DESIGNS", href: "../design/designs.html"},
+    {name:"ESSAYS", href: "../essay/essays.html"},
+    {name:"PORTFOLIO", href: "../portfolio/portfolio.html"},  
+    {name:"ABOUT ME", href: "../about/about.html"},
 ]
 
 export function initialise(currentPage)
