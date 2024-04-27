@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="test fr">
     <title>Blog post 2 Page</title>
+    <script type="module"> import {initialise} from "./scripts/main-menu.js"
+    initialise ("ESSAYS") </script>
 </head>
 
 <style>
@@ -20,7 +22,21 @@ body{
 }
  
 .main {
-        flex: 1; 
+         padding: 16px;
+         margin-top: 30px;
+         height: 1500px;  
+}
+
+.button {
+      font-size: 18px;
+      color:  rgb(255, 252, 226); 
+      text-decoration: none;
+      border-radius: 5px;    
+}
+
+.button:hover {
+      text-decoration: none;
+      font-weight: bold;
 }
 
 div {
@@ -31,12 +47,14 @@ div {
  
 <body>
   <header>
-   <div style="background-color:rgb(255, 252, 226);color:rgb(37, 37, 37);padding:20px;">
    <h1 style="font-size: 3em;">WSOA3028A</h1>
+   <div style="background-color:rgb(255, 252, 226);color:rgb(37, 37, 37);padding:20px;">
+   
    </div>
+   <nav></nav>
  </header>
  
- <div class="navbar">
+ <!-- <div class="navbar">
   
    <a href="index.html">HOME</a>
    <a href="blogs.html">BLOG POSTS</a>
@@ -44,10 +62,10 @@ div {
    <a href="essays.html">ESSAYS</a>
    <a href="portfolio.html">PORTFOLIO</a> 
    <a href="about.html">ABOUT ME</a>
- </div>
+ </div> -->
  
  <div class="main">
-     <h1>WEEK 2</h1>
+     <h2>WEEK 2</h2>
      <main>
 
      <details>
@@ -149,7 +167,10 @@ div {
          <summary><b> My Moodboard </b></summary>
             <img src="Images/Week 2/Moodboard.png" width="1200" height="700" alt="My moodboard">   
        </details>
-       <p><br></p>
+       <br>
+       <br>
+       <a href="blog-1.html" class="button">PREV</a> <br>
+       <a href="blog-3.html" class="button">NEXT</a> 
 
  </main>
  </div>
