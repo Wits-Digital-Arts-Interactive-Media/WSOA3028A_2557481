@@ -8,52 +8,47 @@
  <meta name="description" content="This is the index page of the website displaying the portfolio and blogs for Amy Janse van Vuuren in the Interactive Media course ">
  <meta name="robots" content="index,follow">
  <meta name="keywords" content="Web Development, Game Development, Interactive, Blog, Portfolio, Essay, Design">
-  
  <meta property="og:title" content="Amy Janse van Vuuren Portfolio Website">
- <meta property="og:description" content="Welcome to Amy's Portfolio Website, here you can find his portfolio of work, including games, websites, blogs, analysis.">
-      
+ <meta property="og:description" content="Welcome to Amy's Portfolio Website, here you can find his portfolio of work, including games, websites, blogs, analysis.">    
  <meta property="og:url" content="https://wits-digital-arts-interactive-media.github.io/WSOA3028A_2557481/">
  
  <script src="./Scripts/navigation.js" defer>
  initialise ("HOME") </script>
 
 <title>WSOA3028A</title>
-
 </head> 
 
 <body style="background-color: rgb(59,57,53); color: rgb(177,162,136); font-family: 'Bodoni MT';">
     
     <header>
-        <h1 style="font-size: 3em;">WSOA3028A</h1>
-        <div style="background-color:rgb(177,162,136); color:rgb(59,57,53); padding:20px;"></div>     
+         <h1 style="font-size: 3em;">WSOA3028A</h1>
+         <div style="background-color:rgb(177,162,136); color:rgb(59,57,53); padding:20px;"></div>     
     </header>
 
     <div class="main" style="padding: 16px; margin-top: 30px; height: 1500px;">
         <h1 style="color: rgba(130,141,130,255);">Amy's Website</h1>
-
         <br>
-            <a href="./blog-posts/blogs.html" class="button" style="font-size: 22px; color: rgb(98,96,86); text-decoration: none; border-radius: 5px;">READ MY BLOGS</a> <br><br>
-            <a href="./design/designs.html" class="button" style="font-size: 20px; color: rgb(178,169,149); text-decoration: none; border-radius: 5px;">SEE MY DESIGNS</a> <br><br>
-            <a href="./essay/essays.html" class="button" style="font-size: 22px; color: rgb(177,162,136); text-decoration: none; border-radius: 5px;">READ MY ESSAYS</a> <br><br>
-            <a href="./portfolio/portfolio.html" class="button" style="font-size: 20px; color: rgb(130,122,102); text-decoration: none; border-radius: 5px;">SEE MY PORTFOLIO</a> <br><br>
-            <a href="./about/about.html" class="button" style="font-size: 22px; color: rgb(106,109,97); text-decoration: none; border-radius: 5px;">READ ABOUT ME</a> <br>
+             <a href="./blog-posts/blogs.html" class="button" style="font-size: 22px; color: rgb(98,96,86); text-decoration: none; border-radius: 5px;">READ MY BLOGS</a> <br><br>
+             <a href="./design/designs.html" class="button" style="font-size: 20px; color: rgb(178,169,149); text-decoration: none; border-radius: 5px;">SEE MY DESIGNS</a> <br><br>
+             <a href="./essay/essays.html" class="button" style="font-size: 22px; color: rgb(177,162,136); text-decoration: none; border-radius: 5px;">READ MY ESSAYS</a> <br><br>
+             <a href="./portfolio/portfolio.html" class="button" style="font-size: 20px; color: rgb(130,122,102); text-decoration: none; border-radius: 5px;">SEE MY PORTFOLIO</a> <br><br>
+             <a href="./about/about.html" class="button" style="font-size: 22px; color: rgb(106,109,97); text-decoration: none; border-radius: 5px;">READ ABOUT ME</a> <br>
         <br>
 
         <p><img src="Images/Week 1/My Art.jpg"  width="350" height="450" alt="picture of Van Goghs Cypresses and Two Women painting"></p>
 
         <button onclick="revealText()" style="background-color: rgb(178,169,149);">How long did it take me to create the navigation?</button>
-
         <div id="hiddenText" style="display: none;">
-            <p>too long... I need to go touch grass</p>
+             <p>too long... I need to go touch grass</p>
         </div>
 
         <script>
             function revealText() {
-                var hiddenText = document.getElementById("hiddenText");
+                 var hiddenText = document.getElementById("hiddenText");
 
                 if (hiddenText.style.display === "none") {
                     hiddenText.style.display = "block";
-                } else {
+                 } else {
                     hiddenText.style.display = "none";
                 }
         }
