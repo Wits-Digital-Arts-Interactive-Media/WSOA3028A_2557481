@@ -1,10 +1,10 @@
 const navLinks = [
-    { text: 'HOME', url:'/WSOA3018A_2557481/index.html' },
-    { text: 'BLOGS', url: '../Blog-Posts/blogs.html' },
-    { text: 'DESIGNS', url: '../Design/designs.html' },
-    { text: 'ESSAYS', url: '../Essay/essays.html' },
-    { text: 'PORTFOLIO', url: '../Portfolio/portfolio.html' },
-    { text: 'ABOUT ME', url: '../About/about.html' }
+    { text: 'HOME', url:'./index.html' },
+    { text: 'BLOGS', url: './Blog-Posts/blogs.html' },
+    { text: 'DESIGNS', url: './Design/designs.html' },
+    { text: 'ESSAYS', url: './Essay/essays.html' },
+    { text: 'PORTFOLIO', url: './Portfolio/portfolio.html' },
+    { text: 'ABOUT ME', url: './About/about.html' }
 ];
 
 
