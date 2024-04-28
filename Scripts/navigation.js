@@ -1,10 +1,10 @@
 const navLinks = [
-    { text: 'HOME', url:'./index.html' },
-    { text: 'BLOGS', url: './Blog-Posts/blogs.html' },
-    { text: 'DESIGNS', url: './Design/designs.html' },
-    { text: 'ESSAYS', url: './Essay/essays.html' },
-    { text: 'PORTFOLIO', url: './Portfolio/portfolio.html' },
-    { text: 'ABOUT ME', url: './About/about.html' }
+    { text: 'HOME', url:'/index.html' },
+    { text: 'BLOGS', url: '../blog-posts/blogs.html' },
+    { text: 'DESIGNS', url: '../design/designs.html' },
+    { text: 'ESSAYS', url: '../essay/essays.html' },
+    { text: 'PORTFOLIO', url: '../portfolio/portfolio.html' },
+    { text: 'ABOUT ME', url: '../about/about.html' }
 ];
 
 
