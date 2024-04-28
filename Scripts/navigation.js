@@ -1,5 +1,5 @@
 const navLinks = [
-    { text: 'HOME', url: '../index.html' },
+    { text: 'HOME', url:'../index/index.html' },
     { text: 'BLOGS', url: '../blog-posts/blogs.html' },
     { text: 'DESIGNS', url: '../design/designs.html' },
     { text: 'ESSAYS', url: '../essay/essays.html' },
