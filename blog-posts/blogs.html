@@ -65,6 +65,8 @@ li a:hover {
   flex: 25%;
   max-width: 50%;
   padding: 0 20px;
+  text-align: center; 
+  position: relative;
 }
 
 .column img {
@@ -75,29 +77,51 @@ li a:hover {
 
 @media screen and (max-width: 800px) {
   .column {
-    flex: 50%;
-    max-width: 50%;
+  flex: 50%;
+  max-width: 50%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .column {
-    flex: 100%;
-    max-width: 100%;
+  flex: 100%;
+  max-width: 100%;
   }
 }
 
+.label {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  color: rgb(51, 51, 51);
+  font-size: 20px;
+  background-color: rgba(214, 214, 214, 0.7);
+  padding: 5px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
 .button img {
-      display: block;
-      width: 100%;
-      height: auto;
-      transition: transform 0.2s;
-      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.2s;
+  box-shadow: 0 6px 10px rgba(56, 56, 56, 0.3);
 }
 
 .button img:hover {
-      transform: scale(1.05);
-      filter: brightness(80%);
+  transform: scale(1.02);
+  filter: brightness(80%);
+}
+
+.button:hover .label {
+  opacity: 0.8;
+}
+
+.button {
+  position: relative;
 }
 
 </style>
@@ -117,12 +141,15 @@ li a:hover {
           <div class="column">
             <a href="../blog-posts/blog-1.html" class="button" title="Read my blog post 1 - Setting up github and my reflections on the week's readings on the world wide web"> 
               <img src="../Images/CSS/BlogButtons/1.jpg" alt="Blog post 1">
+              <div class="label">Blog Post 1</div>
             </a>   
             <a href="../blog-posts/blog-4.html" class="button" title="Read my blog post 4 - Flow Diagram, Goal Alignment, and reflection on the week">
               <img src="../Images/CSS/BlogButtons/4.jpg" alt="Blog post 4">
+              <div class="label">Blog Post 4</div>
             </a>
             <a href="../blog-posts/blog-7.html" class="button" title="Read my blog post 7 - My struggles during my second assignment, and my goals for my third assignment">
               <img src="../Images/CSS/BlogButtons/7.jpg" alt="Blog post 7">
+              <div class="label">Blog Post 7</div>
             </a>
             <!-- <a href="../blog-posts/blog-10.html" class="button" title="">
               <img src="/Images/CSS/BlogButtons">
@@ -132,9 +159,11 @@ li a:hover {
           <div class="column">
             <a href="../blog-posts/blog-2.html" class="button" title="Read my blog post 2 - Folder Structures, URL Schemes, and my first wireframes">
               <img src="../Images/CSS/BlogButtons/2.jpg" alt="Blog post 2">
+              <div class="label">Blog Post 2</div>
             </a>
             <a href="../blog-posts/blog-5.html" class="button" title="Read my blog post 5 - My 2 chosen South African websites, their pros and cons, and my thoughts on ethical web design">
               <img src="../Images/CSS/BlogButtons/5.jpg" alt="Blog post 5">
+              <div class="label">Blog Post 5</div>
             </a>
             <!-- <a href="../blog-posts/blog-8.html" class="button" title="">
               <img src="/Images/CSS/BlogButtons">
@@ -144,9 +173,11 @@ li a:hover {
           <div class="column">
             <a href="../blog-posts/blog-3.html" class="button" title="Read my blog post 3 -  My chosen font style, colour palette, and navigation system">
               <img src="../Images/CSS/BlogButtons/3.jpg" alt="Blog post 3">
+              <div class="label">Blog Post 3</div>
             </a>
             <a href="../blog-posts/blog-6.html" class="button" title="Read my blog post 6 - My reflections and summaries on the readings of the week">
               <img src="../Images/CSS/BlogButtons/6.jpg" alt="Blog post 6">
+              <div class="label">Blog Post 6</div>
             </a>
             <!-- <a href="../blog-posts/blog-9.html" class="button" title="">
               <img src="/Images/CSS/BlogButtons">
