@@ -8,51 +8,85 @@
   <meta name="robots" content="index,follow">
   <meta name="keywords" content="Web Development, Game Development, Interactive, Blog, Portfolio, Essay, Design">
 
-    <meta property="og:title" content="Amy Janse van Vuuren Portfolio Website">
-    <meta property="og:description" content="Welcome to Amy's Portfolio Website, here you can find his portfolio of work, including games, websites, blogs, analysis.">
+  <meta property="og:title" content="Amy Janse van Vuuren Portfolio Website">
+  <meta property="og:description" content="Welcome to Amy's Portfolio Website, here you can find my portfolio of work, including games, websites, blogs, analysis.">
     
-    <meta property="og:url" content="https://github.com/Wits-Digital-Arts-Interactive-Media/WSOA3028A_2557481">
+  <meta property="og:url" content="https://github.com/Wits-Digital-Arts-Interactive-Media/WSOA3028A_2557481">
  
- <script src="./Scripts/navigation.js" defer>
- initialise ("HOME") </script>
-
-<script src="./Scripts/quote.js" defer></script>
+  <script src="./Scripts/navigation.js" defer></script>
 
 <title>WSOA3028A</title>
+
+<style>
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 20px; 
+}
+
+.button {   
+  text-align: center;
+  margin: 0 50px;
+  box-sizing: border-box;
+}
+
+.button p {
+  margin-top: 10px;
+}
+
+.button img {
+  max-width: 100%; 
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
+}
+
+.button img:hover {
+  filter: brightness(80%);
+}
+
+</style>
 </head> 
 
 <body style="background-color: rgb(59,57,53); color: rgb(177,162,136); font-family: 'Bodoni MT';">
     
     <header>
-         <h1 style="font-size: 3em;">WSOA3028A</h1>
+         <h1 style="text-align: center; font-size: 50px;">WSOA3028A</h1>
          <div style="background-color:rgb(177,162,136); color:rgb(59,57,53); padding:20px;"></div>     
     </header>
 
-    <div class="main" style="padding: 16px; margin-top: 30px; height: 1500px;">
-        <h1 style="color: rgba(130,141,130,255);">Amy's Website</h1>
-        <br>
-          <a href="./blog-posts/blogs.html" class="button" title="Read my blog posts about my third-year Interactive Media course work"
-          style="font-size: 22px; color: rgb(98,96,86);">READ MY BLOGS</a> <br><br>
+      <p style="color: rgb(177,162,136); text-align: center; font-size: 30px;"> WELCOME TO </p>
+      <h1 style="color: rgb(177,162,136); text-align: center; font-size: 60px;">AMY'S WEBSITE</h1>
 
-          <a href="./design/designs.html" class="button" title="Take a look at my web design ideas and what I'm trying to achieve"
-          style="font-size: 20px; color: rgb(178,169,149);">SEE MY DESIGNS</a> <br><br>
+    <div class="main" style="padding: 16px; margin-top: 30px; height: 800px;">
+    <div class="button-container">
+      <div class="button">
+      <p style="font-size: 25px; color: rgb(192,173,133);"> My Designs </p>
+      <a href="./design/designs.html" class="button" title="Take a look at my web design ideas and what I'm trying to achieve">
+        <img src="Images/CSS/Designs.jpg" alt="Look at my designs" style="width: 330px; height: 450px;"> 
+        </a>  
+      </div>
+      
+      <div class="button">
+      <p style="font-size: 25px; color: #838a82;"> Read My Blog Posts </p>
+      <a href="./blog-posts/blogs.html" class="button" title="Read my blog posts about my third-year Interactive Media course work">
+        <img src="Images/CSS/Blogs.jpg" alt="Read my blogs" style="width: 400px; height: 500px;">
+       </a>
+      </div>
 
-          <a href="./essay/essays.html" class="button" title="Read my third-year Interactive Media essays"
-          style="font-size: 22px; color: rgb(177,162,136);">READ MY ESSAYS</a> <br><br>
+      <div class="button">
+      <p style="font-size: 25px; color: #8b885f;"> Read About Me </p>
+      <a href="./about/about.html" class="button" title="Read about me and my goals for this year">
+        <img src="Images/CSS/About Me.jpg" alt="Read more about me" style="width: 330px; height: 450px;">
+       </a>
+      </div>
+    </div>
 
-          <a href="./portfolio/portfolio.html" class="button" title="Take a look at my portfolio work (coming soon...)"
-          style="font-size: 20px; color: rgb(130,122,102);">SEE MY PORTFOLIO</a> <br><br>
+  <br>
+  <br>
+  <br>
 
-          <a href="./about/about.html" class="button" title="Read about me and my goals for this year"
-          style="font-size: 22px; color: rgb(106,109,97);">READ ABOUT ME</a> <br>
-        <br>
-
-        <button onclick="generateQuote()" style="background-color: rgb(177,162,136)">♡</button>
-        <p id="quote" style="font-style: italic;"></p>
-        
-        <p><img src="Images/Week 1/My Art.jpg"  width="350" height="450" alt="picture of Van Goghs Cypresses and Two Women painting"></p>
-
-      <footer>
+    <footer>
       <span class="p-name" style="color: rgba(130,141,130,255);"> Amy Janse van Vuuren</span><br>
       <a class="u-email" href="mailto:fake@gmail.com"style="color: rgba(130,141,130,255);">anyvv9@gmail.com</a><br>
       <span class="p-org" style="color: rgba(130,141,130,255);">University of the Witwatersrand</span><br>
@@ -60,7 +94,6 @@
       <span class="p-country-name" style="color: rgba(130,141,130,255);">South Africa</span>
     </footer>
 
-    </div>
-
+  </div>
 </body>
 </html>
