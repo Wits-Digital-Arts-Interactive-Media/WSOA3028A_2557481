@@ -38,7 +38,7 @@ li {
 
 li a {
   display: block;
-  color: rgb(224, 216, 193);
+  color: rgb(111, 119, 106);
   font-weight: bold;
   text-align: center;
   font-size: 35;
@@ -54,20 +54,107 @@ li a:hover {
   ul.topnav li.right, 
   ul.topnav li {float: none;}
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 20px;
+}
+
+.column img {
+  margin-top: 30px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.button img {
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: transform 0.2s;
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button img:hover {
+      transform: scale(1.05);
+      filter: brightness(80%);
+}
+
 </style>
 </head> 
 
 <body style="background-color: rgb(59,57,53); color: rgb(177,162,136); font-family: 'Bodoni MT';">
 
     <header>
-        <h1 style="font-size: 3em;">WSOA3028A</h1>
+        <h1 style="font-size: 3em; text-align: center;">WSOA3028A</h1>
         <nav></nav>
     </header>
 
     <div class="main" style="padding: 5px; margin-top: 30px; height: 1500px;">
-        <h2 style="color: rgb(154,164,148);">MY BLOG POSTS</h2>
+        <h2 style="color: rgb(128, 138, 122); text-align: center;">MY BLOG POSTS</h2>
 
-        <P><a href="../blog-posts/blog-1.html" class="button" title="Read my blog post 1 - Setting up github and my reflections on the week's readings on the world wide web" 
+        <div class="row">
+          <div class="column">
+            <a href="../blog-posts/blog-1.html" class="button" title="Read my blog post 1 - Setting up github and my reflections on the week's readings on the world wide web"> 
+              <img src="../Images/CSS/BlogButtons/1.jpg" alt="Blog post 1">
+            </a>   
+            <a href="../blog-posts/blog-4.html" class="button" title="Read my blog post 4 - Flow Diagram, Goal Alignment, and reflection on the week">
+              <img src="../Images/CSS/BlogButtons/4.jpg" alt="Blog post 4">
+            </a>
+            <a href="../blog-posts/blog-7.html" class="button" title="Read my blog post 7 - My struggles during my second assignment, and my goals for my third assignment">
+              <img src="../Images/CSS/BlogButtons/7.jpg" alt="Blog post 7">
+            </a>
+            <!-- <a href="../blog-posts/blog-10.html" class="button" title="">
+              <img src="/Images/CSS/BlogButtons">
+            </a> -->
+          </div>
+
+          <div class="column">
+            <a href="../blog-posts/blog-2.html" class="button" title="Read my blog post 2 - Folder Structures, URL Schemes, and my first wireframes">
+              <img src="../Images/CSS/BlogButtons/2.jpg" alt="Blog post 2">
+            </a>
+            <a href="../blog-posts/blog-5.html" class="button" title="Read my blog post 5 - My 2 chosen South African websites, their pros and cons, and my thoughts on ethical web design">
+              <img src="../Images/CSS/BlogButtons/5.jpg" alt="Blog post 5">
+            </a>
+            <!-- <a href="../blog-posts/blog-8.html" class="button" title="">
+              <img src="/Images/CSS/BlogButtons">
+            </a> -->
+          </div>
+
+          <div class="column">
+            <a href="../blog-posts/blog-3.html" class="button" title="Read my blog post 3 -  My chosen font style, colour palette, and navigation system">
+              <img src="../Images/CSS/BlogButtons/3.jpg" alt="Blog post 3">
+            </a>
+            <a href="../blog-posts/blog-6.html" class="button" title="Read my blog post 6 - My reflections and summaries on the readings of the week">
+              <img src="../Images/CSS/BlogButtons/6.jpg" alt="Blog post 6">
+            </a>
+            <!-- <a href="../blog-posts/blog-9.html" class="button" title="">
+              <img src="/Images/CSS/BlogButtons">
+            </a> -->
+          </div>
+        </div>
+
+        <!-- <P><a href="../blog-posts/blog-1.html" class="button" title="Read my blog post 1 - Setting up github and my reflections on the week's readings on the world wide web" 
             style="font-size: 23px; color: rgba(130,141,130,255);">BLOG 1</a></P> 
 
         <P><a href="../blog-posts/blog-2.html" class="button" title="Read my blog post 2 - Folder Structures, URL Schemes, and my first wireframes" 
@@ -87,7 +174,7 @@ li a:hover {
             
         <P><a href="../blog-posts/blog-7.html" class="button" title="Read my blog post 7 - My struggles during my second assignment, and my goals for my third assignment"
             style="font-size: 23px; color: rgba(130,141,130,255);">BLOG 7</a></P>
-        <br>
+        <br> -->
    
     <br>
     <footer>
