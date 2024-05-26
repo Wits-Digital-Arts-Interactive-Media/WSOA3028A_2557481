@@ -1,0 +1,17 @@
+.nav-icons {
+    display: flex;
+    justify-content: left;
+    margin: 20px 0;
+  }
+  
+  .nav-icon {
+    font-size: 2em;
+    color: rgb(128, 138, 122);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-icon:hover {
+    color: rgb(211, 225, 203);
+  }
+  

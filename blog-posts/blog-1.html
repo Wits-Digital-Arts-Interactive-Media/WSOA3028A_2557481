@@ -18,6 +18,9 @@
 
   <link rel="stylesheet" type="text/css" href="../Styles/nav.css">
   <link rel="stylesheet" type="text/css" href="../Styles/move-up.css">
+  <link rel="stylesheet" type="text/css" href="../Styles/nav-icons.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 <title>WSOA3028A</title>
@@ -41,6 +44,18 @@
     color: rgb(192, 173, 133);
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.header-title {
+  color: rgba(130, 141, 130, 255);
+  font-size: 2em;
+  margin: 0 20px;
+}
+
 </style>
 </head>
 
@@ -52,9 +67,13 @@
     </header>
 
     <div class="main" style="padding: 16px; margin-top: 30px; height: 1800px;">
-        <h2 style="color: rgba(130,141,130,255); font-size: 2em;">BLOG POST 1</h2>
-        <main>
+      <div class="header-container">
+        <a href="../blog-posts/blogs.html" class="nav-icon"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+        <h2 class="header-title">BLOG POST 1</h2>
+        <a href="../blog-posts/blog-2.html" class="nav-icon"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+      </div>
 
+        <main>
             <h3 style="color: rgba(130,141,130,255);font-size: 1.5em;"><b>Your experience setting up GitHub and publishing to Pages</b></h3>
                 <p>Setting up GitHub and publishing to Pages was quite an adventure for me. Initially, I found the process to be a bit 
                     complicated, navigating through repositories, and branches, and understanding the version control concepts. 
@@ -114,12 +133,6 @@
                    know-how but to understand how design and code work together to make killer interactive  experiences. By the end of it
                    all, I want to be able to whip up websites and apps that people love to use and keep  coming back to.
                </p>
-            <br>
-            <br>
-            <a href="../blog-posts/blogs.html" style="font-size: 16px; color: rgb(144, 140, 127);" class="button">PREV</a> <br>
-            <a href="../blog-posts/blog-2.html" style="font-size: 16px; color: rgb(144, 140, 127);" class="button">NEXT</a>
-          </div>
-
           <div class="scroll-up-button button-set-2">
             <i class="fa fa-arrow-up"></i>
           </div>    
