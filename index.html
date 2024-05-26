@@ -15,8 +15,10 @@
  
   <script src="./Scripts/navigation.js" defer></script>
   <script src="./Scripts/scroll-down.js" defer></script>
+  <script src="./Scripts/scroll-up.js" defer></script>
 
   <link rel="stylesheet" type="text/css" href="Styles/move-down.css">
+  <link rel="stylesheet" type="text/css" href="Styles/move-up.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 <title>WSOA3028A</title>
@@ -61,6 +63,22 @@
   background-size: cover;
 }
 
+.button-set-1 .label {
+    color: rgb(59, 57, 53);
+}
+
+.button-set-1 .fa-arrow-down {
+    color: rgb(59, 57, 53);
+}
+
+.button-set-2 .label {
+    color: rgb(192, 173, 133);
+}
+
+.button-set-2 .fa-arrow-up {
+    color: rgb(192, 173, 133);
+}
+
 </style>
 </head> 
 
@@ -74,15 +92,14 @@
   <p style="color: rgb(177,162,136); text-align: center; font-size: 30px;"> WELCOME TO </p>
   <h1 style="color: rgb(177,162,136); text-align: center; font-size: 60px;">AMY'S WEBSITE</h1>
     
-  <div class="scroll-down-button">
-    <span class="label">CLICK</span>
-    <i class="fa fa-arrow-down" aria-hidden="true"></i>
-</div>
+  <div class="scroll-down-button button-set-1">
+    <div class="label">CLICK</div>
+    <i class="fa fa-arrow-down"></i>
+  </div>
   
-
     <div class="parallax"></div>
 
-<div class="main" style="padding: 16px; margin-top: 30px; height: 650px;">
+<div class="main" style="padding: 16px; margin-top: 30px; height: 700px;">
 
   <div class="button-container">
     <div class="button">
@@ -106,6 +123,12 @@
       </a>
     </div>
   </div>
+
+  <div class="scroll-up-button button-set-2">
+    <div class="label">CLICK</div>
+    <i class="fa fa-arrow-up"></i>
+  </div>
+
 </div>
 
     <footer>

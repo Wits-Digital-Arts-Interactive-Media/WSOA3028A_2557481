@@ -1,8 +1,8 @@
-.scroll-down-button {
+.scroll-up-button {
     position: fixed;
     bottom: 10px;
-    left: 3%;
-    transform: translateX(-50%);
+    right: 4%;
+    transform: translateX(50%);
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
     font-weight: bold;
 }
 
-.fa-arrow-down {
+.fa-arrow-up {
     font-size: 24px;
     animation: pulse 1.5s infinite alternate;
 }
