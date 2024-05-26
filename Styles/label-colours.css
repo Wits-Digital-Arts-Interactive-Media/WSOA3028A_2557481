@@ -1,0 +1,17 @@
+/* First set of buttons */
+.button-set-1 .label {
+    color: rgb(59, 57, 53);
+}
+
+.button-set-1 .fa-arrow-down {
+    color: rgb(59, 57, 53);
+}
+
+/* Second set of buttons */
+.button-set-2 .label {
+    color: rgb(192, 173, 133);
+}
+
+.button-set-2 .fa-arrow-up {
+    color: rgb(192, 173, 133);
+}
