@@ -1,7 +1,7 @@
 .scroll-up-button {
     position: fixed;
     bottom: 10px;
-    right: 3%;
+    right: 1%;
     transform: translateX(-50%);
     cursor: pointer;
     display: flex;
@@ -10,13 +10,13 @@
 }
 
 .label {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
 .fa-arrow-up {
-    font-size: 24px;
+    font-size: 22px;
     animation: pulse 1.5s infinite alternate;
 }
 
