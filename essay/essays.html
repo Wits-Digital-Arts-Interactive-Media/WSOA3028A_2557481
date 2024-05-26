@@ -18,42 +18,73 @@
 <title>WSOA3028A</title>
 
 <style>
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: rgb(177,162,136);
-    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(177,162,136);
+}
     
-    ul {
-      position: -webkit-sticky; 
-      position: sticky;
-      top: 0;
-    }
+ul {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
     
-    li {
-      float: left;
-    }
+li {
+    float: left;
+}
     
-    li a {
-        display: block;
-        color: rgb(110, 118, 106);
-        font-weight: bold;
-        text-align: center;
-        font-size: 1.5em;
-        padding: 20px 20px;
-        text-decoration: none;
-    }
+li a {
+    display: block;
+    color: rgb(105, 113, 100);
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px 20px;
+    text-decoration: none;
+}
     
-    li a:hover {
-      background-color: rgb(59,57,53);
-    }
+li a:hover {
+    background-color: rgb(59,57,53);
+    color: rgb(126, 136, 120);
+}
     
-    @media screen and (max-width: 600px) {
-      ul.topnav li.right, 
-      ul.topnav li {float: none;}
-    }
+@media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+details:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  background-color: rgb(105, 113, 100);
+  color: rgb(205, 189, 161);
+}
+
+summary {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+details {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+details p {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 600px) {
+  details {
+    width: 100%;
+  }
+}
+
 </style>
 </head> 
 
@@ -68,14 +99,14 @@
       <h2 style="color: rgb(128, 138, 122); text-align: center; font-size: 2em;">MY ESSAYS</h2>
 
         <details>
-            <summary><b>UI & UX Analysis</b></summary>
-            <p><a href="../Documents/Essay1.docx" download>Download Essay 1: UX & UI Analysis</a></p>
+            <summary style="font-size: 25px;"> Essay 1: UI & UX Analysis </summary>
+            <p style="font-size: 22px;"><a href="../Documents/Essay1.docx" download>Download Essay 1: UX & UI Analysis</a></p>
         </details>
         <br>
 
         <details>
-            <summary><b>Essay 2</b></summary>
-            <p>
+            <summary style="font-size: 25px;"> Essay 2: Digital Colonialism </summary>
+            <p style="font-size: 22px; color: rgb(205, 189, 161);">
                 TBD
             </p>
         </details>
