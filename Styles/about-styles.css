@@ -1,0 +1,115 @@
+/* Reset and general styles */
+body {
+    background-color: rgb(59, 57, 53);
+    color: rgb(177, 162, 136);
+    font-family: 'Bodoni MT';
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.header-title {
+    font-size: 3em;
+    text-align: center;
+}
+
+/* Main section styles */
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    min-height: 100vh; /* Ensure content stretches to at least the height of the viewport */
+}
+
+.section-title {
+    color: rgb(128, 138, 122);
+    text-align: center;
+    font-size: 2em;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to new line on smaller screens */
+    justify-content: center; /* Center items horizontally */
+}
+
+.profile-section {
+    border-right: 1px solid rgb(177, 162, 136);
+    padding-right: 20px;
+    flex: 0 0 300px; /* Set fixed width for profile section */
+}
+
+.u-photo {
+    display: block;
+    margin: 0 auto;
+    border-radius: 2%;
+    max-width: 100%;
+    height: auto;
+}
+
+.details-section {
+    padding-left: 20px;
+    flex: 1 1 100%; /* Allow details section to take remaining space */
+    max-width: 800px; /* Limit maximum width of details section */
+}
+
+.details-section h2 {
+    font-size: 25px;
+}
+
+.details-section p {
+    font-size: 20px;
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Fun fact button */
+.fun-fact-button {
+    background-color: rgb(128, 138, 122);
+    color: rgb(243, 228, 201);
+    font-family: 'Bodoni MT';
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Scroll-up button styles */
+.scroll-up-button {
+    position: fixed;
+    bottom: 10px;
+    right: 1%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.fa-arrow-up {
+    font-size: 22px;
+    animation: pulse 1.5s infinite alternate;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1.7);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+/* Footer styles */
+footer {
+    color: rgba(130, 141, 130, 255);
+    text-align: left;
+    padding: 20px 0;
+    padding-left: 1%;
+}
