@@ -1,10 +1,10 @@
 const navLinks = [
-    { text: 'HOME', url:'../Index.html' },
-    { text: 'BLOGS', url: '../Blog-Posts/index.html' },
-    { text: 'DESIGNS', url: '../Design/index.html' },
-    { text: 'ESSAYS', url: '../Essay/index.html' },
-    { text: 'PORTFOLIO', url: '../Portfolio/index.html' },
-    { text: 'ABOUT ME', url: '../About/index.html' }
+    { text: 'HOME', url:'../index.html' },
+    { text: 'BLOGS', url: '../blog-posts/index.html' },
+    { text: 'DESIGNS', url: '../design/index.html' },
+    { text: 'ESSAYS', url: '../essay/index.html' },
+    { text: 'PORTFOLIO', url: '../portfolio/index.html' },
+    { text: 'ABOUT ME', url: '../about/index.html' }
 ];
 
 function createNavigationBar() {
