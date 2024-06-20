@@ -2,7 +2,7 @@ const navLinks = [
     { text: 'HOME', url:'../index.html' },
     { text: 'BLOGS', url: '../blog-posts/blogs.html' },
     { text: 'DESIGNS', url: '../design/designs.html' },
-    { text: 'ESSAYS', url: '../essay/essays.html' },
+    { text: 'ESSAYS', url: '../essay/essay.html' },
     { text: 'PORTFOLIO', url: '../portfolio/portfolio.html' },
     { text: 'ABOUT ME', url: '../about/about.html' }
 ];
