@@ -1,0 +1,130 @@
+/* General styles */
+body {
+    background-color: rgb(59, 57, 53);
+    color: rgb(177, 162, 136);
+    font-family: 'Bodoni MT', serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .header-title {
+    font-size: 2em;
+  }
+  
+  .main-content {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .section-title {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start; /* Adjust alignment based on your design */
+    margin-bottom: 20px;
+  }
+  
+  .image-container,
+  .text-container {
+    flex: 1 1 48%; /* Adjust flex values to control item width */
+    margin-bottom: 10px;
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Ensure images are responsive within their container */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .text-container {
+    padding: 0 10px;
+  }
+  
+  .sub-title {
+    font-size: 1.2em;
+    border-top: 2px solid rgb(177, 162, 136); /* Add a solid line under each h2 */
+    padding-top: 30px; /* Optional: Add some spacing between line and text */
+  }
+  
+  .main-text {
+    font-size: 18px;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: rgb(128, 138, 122);
+    color: rgb(243, 228, 201);
+    font-family: 'Bodoni MT', serif;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  /* Footer styles */
+  footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .flex-container {
+      flex-direction: column;
+      align-items: center; /* Adjust alignment for stacked items */
+    }
+  
+    .image-container,
+    .text-container {
+      flex: 1 1 100%; /* Full width for stacked items */
+      margin-bottom: 15px;
+    }
+  
+    .header-title {
+      font-size: 1.5em;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .main-content {
+      padding: 5px;
+    }
+  
+    .section-title {
+      font-size: 1.2em;
+    }
+  
+    .sub-title {
+      font-size: 1em;
+    }
+  
+    .main-text {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .header-title {
+      font-size: 1.2em;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
