@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta tags and scripts -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Amy Janse van Vuuren">
@@ -10,115 +11,26 @@
 
   <meta property="og:title" content="Amy Janse van Vuuren Portfolio Website">
   <meta property="og:description" content="Welcome to Amy's Portfolio Website, here you can find my portfolio of work, including games, websites, blogs, analysis.">
-    
   <meta property="og:url" content="https://github.com/Wits-Digital-Arts-Interactive-Media/WSOA3028A_2557481">
- 
+
   <script src="../Scripts/navigation.js" defer></script>
   <script src="../Scripts/scroll-up.js" defer></script>
 
   <link rel="stylesheet" type="text/css" href="../Styles/nav.css">
   <link rel="stylesheet" type="text/css" href="../Styles/move-up.css">
+  <link rel="stylesheet" type="text/css" href="../Styles/blog-styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-<title>WSOA3028A</title>
-
-<style>
-@media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 10px;
-}
-
-.column {
-  flex: 30%;
-  max-width: 50%;
-  padding: 0 5px;
-  text-align: center; 
-  position: relative;
-}
-
-.column img {
-  margin-top: 30px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-@media screen and (max-width: 800px) {
-  .column {
-  flex: 50%;
-  max-width: 50%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-  flex: 100%;
-  max-width: 100%;
-  }
-}
-
-.label {
-  position: absolute;
-  top: 50%;
-  left: 5%;
-  transform: translate(-50%, -50%);
-  color: rgb(51, 51, 51);
-  font-size: 20px;
-  background-color: rgb(224, 230, 221);
-  padding: 10px;
-  border-radius: 10px;
-  opacity: 0;
-  transition: opacity 0.2s;
-  font-weight: bold;
-}
-
-.button img {
-  display: block;
-  width: 95%;
-  height: auto;
-  transition: transform 0.2s;
-  box-shadow: 0 6px 10px rgba(56, 56, 56, 0.3);
-  border-radius: 2%;
-}
-
-.button img:hover {
-  transform: scale(1.02);
-  filter: brightness(80%);
-}
-
-.button:hover .label {
-  opacity: 0.6;
-}
-
-.button {
-  position: relative;
-  cursor: pointer;
-}
-
-.button-set-2 .label {
-    color: rgb(192, 173, 133);
-}
-
-.button-set-2 .fa-arrow-up {
-    color: rgb(192, 173, 133);
-}
-
-</style>
-</head> 
+  <title>WSOA3028A</title>
+</head>
 
 <body style="background-color: rgb(59,57,53); color: rgb(177,162,136); font-family: 'Bodoni MT';">
-
     <header>
         <h1 style="font-size: 3em; text-align: center;">WSOA3028A</h1>
         <nav></nav>
     </header>
 
-    <div class="main" style="padding: 5px; margin-top: 30px; height: 2200px;">
+    <div class="main">
         <h2 style="color: rgb(128, 138, 122); text-align: center; font-size: 2em;">MY BLOG POSTS</h2>
 
         <div class="row">
@@ -141,7 +53,7 @@
             <a href="../blog-posts/blog-10.html" class="button" title="Read my blog post 10">
               <img src="../Images/CSS/BlogButtons/10.jpg" alt="Blog post 10">
               <div class="label">Blog Post 10<br><br>
-                My reflection on Luts' Digital inequalities in the age of artificial intelligence and big data, aswell as my thoughts on 
+                My reflection on Luts' Digital inequalities in the age of artificial intelligence and big data, as well as my thoughts on 
                 assignment 3</div>
             </a>
           </div>
@@ -189,12 +101,13 @@
       </div>
 
     <footer>
-      <span class="p-name" style="color: rgba(130,141,130,255);"> Amy Janse van Vuuren</span><br>
-      <a class="u-email" href="mailto:fake@gmail.com" style="color: rgba(130,141,130,255);">anyvv9@gmail.com</a><br>
-      <span class="p-org" style="color: rgba(130,141,130,255);">University of the Witwatersrand</span><br>
-      <span class="p-locality" style="color: rgba(130,141,130,255);">Johannesburg</span><br>
-      <span class="p-country-name" style="color: rgba(130,141,130,255);">South Africa</span>
+      <span class="p-name"> Amy Janse van Vuuren</span><br>
+      <a class="u-email" href="mailto:fake@gmail.com">anyvv9@gmail.com</a><br>
+      <span class="p-org">University of the Witwatersrand</span><br>
+      <span class="p-locality">Johannesburg</span><br>
+      <span class="p-country-name">South Africa</span>
     </footer> 
 
 </body>
 </html>
+

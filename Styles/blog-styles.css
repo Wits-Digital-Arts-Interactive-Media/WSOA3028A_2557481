@@ -1,0 +1,94 @@
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {
+      float: none;
+    }
+  
+    .label {
+      opacity: 1 !important; /* Make labels always visible */
+    }
+  }
+  
+  /* Default layout */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+  }
+  
+  .column {
+    flex: 30%;
+    max-width: 50%;
+    padding: 0 5px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .column img {
+    margin-top: 30px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  .label {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    background-color: rgb(224, 230, 221);
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    font-weight: bold;
+  }
+  
+  .button img {
+    display: block;
+    width: 95%;
+    height: auto;
+    transition: transform 0.2s;
+    box-shadow: 0 6px 10px rgba(56, 56, 56, 0.3);
+    border-radius: 2%;
+  }
+  
+  .button img:hover {
+    transform: scale(1.02);
+    filter: brightness(80%);
+  }
+  
+  .button:hover .label {
+    opacity: 0.6;
+  }
+  
+  .button {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .button-set-2 .label {
+    color: rgb(192, 173, 133);
+  }
+  
+  .button-set-2 .fa-arrow-up {
+    color: rgb(192, 173, 133);
+  }
+  
+  
