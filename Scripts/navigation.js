@@ -1,6 +1,6 @@
 const navLinks = [
     { text: 'HOME', url:'../index.html' },
-    { text: 'BLOGS', url: '../Blog-Posts/index.html' },
+    { text: 'BLOGS', url: '../blog-posts/blogs.html' },
     { text: 'DESIGNS', url: '../Design/index.html' },
     { text: 'ESSAYS', url: '../Essay/index.html' },
     { text: 'PORTFOLIO', url: '../Portfolio/index.html' },
