@@ -1,22 +1,38 @@
-/* Responsive layout */
-@media screen and (max-width: 600px) {
-    ul.topnav li.right,
-    ul.topnav li {
-      float: none;
-    }
+/* General body styling */
+.body-style {
+    background-color: rgb(59, 57, 53);
+    color: rgb(177, 162, 136);
+    font-family: 'Bodoni MT';
+  } /* Not working? */
   
-    .label {
-      opacity: 1 !important; /* Make labels always visible */
-    }
-  }
+  /* Main title styling */
+  .main-title {
+    font-size: 3em;
+    text-align: center;
+  } /* Not working? */
   
-  /* Default layout */
+  /* Sub-title styling */
+  .sub-title {
+    color: rgb(128, 138, 122);
+    text-align: center;
+    font-size: 2em;
+  } /* Not working? */
+  
+  /* Main content styling */
+  .main {
+    padding: 5px;
+    margin-top: 30px;
+    height: 2200px;
+  } /* Not working? */
+  
+  /* Row styling */
   .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 10px;
   }
   
+  /* Column styling */
   .column {
     flex: 30%;
     max-width: 50%;
@@ -25,12 +41,14 @@
     position: relative;
   }
   
+  /* Column image styling */
   .column img {
     margin-top: 30px;
     vertical-align: middle;
     width: 100%;
   }
   
+  /* Responsive design for columns */
   @media screen and (max-width: 800px) {
     .column {
       flex: 50%;
@@ -45,21 +63,25 @@
     }
   }
   
+  /* Label styling */
   .label {
     position: absolute;
     top: 50%;
-    left: 5%;
+    left: 1%;
     transform: translate(-50%, -50%);
     color: rgb(51, 51, 51);
     font-size: 20px;
     background-color: rgb(224, 230, 221);
-    padding: 10px;
+    padding: 2px;
     border-radius: 10px;
     opacity: 0;
     transition: opacity 0.2s;
     font-weight: bold;
+    max-width: 90%;
+    word-wrap: break-word;
   }
   
+  /* Button image styling */
   .button img {
     display: block;
     width: 95%;
@@ -69,20 +91,24 @@
     border-radius: 2%;
   }
   
+  /* Hover effects for button images */
   .button img:hover {
     transform: scale(1.02);
     filter: brightness(80%);
   }
   
+  /* Hover effects for labels */
   .button:hover .label {
-    opacity: 0.6;
+    opacity: 0.8;
   }
   
+  /* Button styling */
   .button {
     position: relative;
     cursor: pointer;
   }
   
+  /* Specific styling for button set 2 */
   .button-set-2 .label {
     color: rgb(192, 173, 133);
   }
@@ -90,5 +116,17 @@
   .button-set-2 .fa-arrow-up {
     color: rgb(192, 173, 133);
   }
+
+  footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+  }
   
+  footer span,
+  footer a {
+    color: rgba(130, 141, 130, 255);
+  }
   
