@@ -1,10 +1,8 @@
-  /* Main title styling */
   .main-title {
     font-size: 3em;
     text-align: center;
   } 
   
-  /* Sub-title styling */
   .sub-title {
     color: rgb(128, 138, 122);
     text-align: center;
@@ -13,21 +11,18 @@
     padding-top: 15px;
   }
   
-  /* Main content styling */
   .main {
     padding: 0px;
     margin-top: 30px;
     height: 2200px;
   }
-  
-  /* Row styling */
+
   .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 10px;
   }
-  
-  /* Column styling */
+
   .column {
     flex: 30%;
     max-width: 50%;
@@ -35,15 +30,13 @@
     text-align: center;
     position: relative;
   }
-  
-  /* Column image styling */
+
   .column img {
     margin-top: 30px;
     vertical-align: middle;
     width: 100%;
   }
-  
-  /* Responsive design for columns */
+
   @media screen and (max-width: 800px) {
     .column {
       flex: 50%;
@@ -57,8 +50,7 @@
       max-width: 100%;
     }
   }
-  
-  /* Label styling */
+
   .label {
     position: absolute;
     top: 50%;
@@ -75,8 +67,7 @@
     max-width: 90%;
     word-wrap: break-word;
   }
-  
-  /* Button image styling */
+
   .button img {
     display: block;
     width: 95%;
@@ -85,25 +76,21 @@
     box-shadow: 0 6px 10px rgba(56, 56, 56, 0.3);
     border-radius: 2%;
   }
-  
-  /* Hover effects for button images */
+
   .button img:hover {
     transform: scale(1.02);
     filter: brightness(80%);
   }
-  
-  /* Hover effects for labels */
+
   .button:hover .label {
     opacity: 0.8;
   }
-  
-  /* Button styling */
+
   .button {
     position: relative;
     cursor: pointer;
   }
-  
-  /* Specific styling for button set 2 */
+
   .button-set-2 .label {
     color: rgb(192, 173, 133);
   }

@@ -1,4 +1,3 @@
-/* Body and general styles */
 .main-body {
     background-color: rgb(59, 57, 53);
     color: rgb(177, 162, 136);
@@ -13,7 +12,7 @@
   .main {
     padding: 16px;
     margin-top: 30px;
-    min-height: 100vh; /* Ensure the content stretches to at least the height of the viewport */
+    min-height: 100vh; 
   }
   
   .section-title {
@@ -32,7 +31,6 @@
     margin-bottom: 20px;
   }
   
-  /* Scroll-up button styles */
   .scroll-up-button {
     position: fixed;
     bottom: 10px;
@@ -49,7 +47,6 @@
     animation: pulse 1.5s infinite alternate;
   }
   
-  /* Footer styles */
   footer {
     color: rgba(130, 141, 130, 255);
   }

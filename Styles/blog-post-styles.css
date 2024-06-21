@@ -1,61 +1,58 @@
-/* Responsive Design */
 @media screen and (max-width: 600px) {
     body {
-      padding: 0 10px; /* Optional: Add padding to body for better readability on small screens */
+      padding: 0 10px;
     }
   
     .main {
       padding: 16px;
       margin-top: 0px;
-      box-sizing: border-box; /* Ensures padding is included in width calculation */
+      box-sizing: border-box; 
     }
   
     .header-container {
       flex-direction: column;
-      text-align: left; /* Align header text to the left */
+      text-align: left; 
     }
   
     .header-title {
       margin: 10px 0;
-      font-size: 1.5em; /* Adjust font size for smaller screens */
+      font-size: 1.5em;
     }
   
     main {
-      text-align: left; /* Ensure main content text is aligned to the left */
+      text-align: left; 
     }
   
     .main p {
-      font-size: 18px; /* Adjust paragraph font size for smaller screens */
-      line-height: 1.6; /* Improve readability with slightly increased line height */
-      margin-bottom: 15px; /* Optional: Add margin bottom for paragraph spacing */
+      font-size: 18px; 
+      line-height: 1.6;
+      margin-bottom: 15px; 
     }
   
     .main img {
       width: 100%;
       height: auto;
-      display: block; /* Ensure images fill the container and stay aligned to the left */
-      margin-bottom: 15px; /* Optional: Add margin bottom for image spacing */
+      display: block; 
+      margin-bottom: 15px; 
     }
   
     .scroll-up-button {
-      text-align: right; /* Align scroll-up button to the right */
+      text-align: right;
     }
   
     footer {
-      text-align: left; /* Align footer content to the left */
-      font-size: 0.9em; /* Adjust footer text size for smaller screens */
-      padding-top: 20px; /* Optional: Add padding top for footer spacing */
+      text-align: left; 
+      font-size: 0.9em; 
+      padding-top: 20px;
     }
   }
-  
-  /* Main Content */
+
   .main {
     padding: 16px;
     margin-top: 30px;
-    height: auto; /* Adjust as necessary */
+    height: auto; 
   }
-  
-  /* Header Styles */
+
   .header-container {
     display: flex;
     align-items: center;
@@ -67,8 +64,7 @@
     font-size: 2em;
     margin: 0 20px;
   }
-  
-  /* Body and General Text Styling */
+
   body {
     background-color: rgb(59, 57, 53);
     color: rgb(177, 162, 136);
@@ -80,8 +76,7 @@
     color: rgba(130, 141, 130, 255);
     font-size: 1.5em;
   }
-  
-  /* Footer Styles */
+
   footer {
     color: rgba(130, 141, 130, 255);
   }

@@ -1,10 +1,8 @@
-/* Resetting some margins and padding for cleaner layout */
 body, html {
   margin: 0;
   padding: 0;
 }
 
-/* Base styles */
 body {
   background-color: rgb(59, 57, 53);
   color: rgb(177, 162, 136);
@@ -71,7 +69,7 @@ header h1 {
 .main-content {
   padding: 5px;
   margin-top: 30px;
-  min-height: calc(100vh - 150px); /* Adjust based on your footer height */
+  min-height: calc(100vh - 150px);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -91,7 +89,7 @@ header h1 {
   margin: 10px;
   box-sizing: border-box;
   cursor: pointer;
-  flex: 1 1 calc(33% - 40px); /* 3 items per row with margin */
+  flex: 1 1 calc(33% - 40px); 
   max-width: calc(33% - 40px);
 }
 
@@ -139,7 +137,6 @@ footer a {
   color: rgba(130, 141, 130, 255);
 }
 
-/* Media Queries for responsiveness */
 @media (max-width: 768px) {
   header h1 {
     font-size: 2em;
@@ -151,7 +148,7 @@ footer a {
     font-size: 2.5em;
   }
   .button {
-    flex: 1 1 calc(50% - 40px); /* 2 items per row on medium screens */
+    flex: 1 1 calc(50% - 40px);
     max-width: calc(50% - 40px);
   }
 }
@@ -167,7 +164,7 @@ footer a {
     font-size: 2em;
   }
   .button {
-    flex: 1 1 calc(100% - 40px); /* 1 item per row on small screens */
+    flex: 1 1 calc(100% - 40px); 
     max-width: calc(100% - 40px);
   }
 }
