@@ -13,13 +13,6 @@ body {
     text-align: center;
 }
 
-/* Main section styles */
-.main {
-    padding: 16px;
-    margin-top: 30px;
-    min-height: 100vh; /* Ensure content stretches to at least the height of the viewport */
-}
-
 .section-title {
     color: rgb(128, 138, 122);
     text-align: center;
@@ -86,24 +79,9 @@ body {
     align-items: center;
 }
 
-.label {
-    font-size: 18px;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
 .fa-arrow-up {
     font-size: 22px;
     animation: pulse 1.5s infinite alternate;
-}
-
-@keyframes pulse {
-    0% {
-        transform: scale(1.7);
-    }
-    100% {
-        transform: scale(1.1);
-    }
 }
 
 /* Footer styles */

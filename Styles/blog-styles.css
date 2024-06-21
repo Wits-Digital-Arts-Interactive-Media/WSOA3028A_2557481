@@ -1,29 +1,24 @@
-/* General body styling */
-.body-style {
-    background-color: rgb(59, 57, 53);
-    color: rgb(177, 162, 136);
-    font-family: 'Bodoni MT';
-  } /* Not working? */
-  
   /* Main title styling */
   .main-title {
     font-size: 3em;
     text-align: center;
-  } /* Not working? */
+  } 
   
   /* Sub-title styling */
   .sub-title {
     color: rgb(128, 138, 122);
     text-align: center;
     font-size: 2em;
-  } /* Not working? */
+    margin-bottom: 15px;
+    padding-top: 15px;
+  }
   
   /* Main content styling */
   .main {
-    padding: 5px;
+    padding: 0px;
     margin-top: 30px;
     height: 2200px;
-  } /* Not working? */
+  }
   
   /* Row styling */
   .row {
@@ -36,7 +31,7 @@
   .column {
     flex: 30%;
     max-width: 50%;
-    padding: 0 5px;
+    padding: 0 0px;
     text-align: center;
     position: relative;
   }

@@ -4,7 +4,7 @@ body {
     color: rgb(177, 162, 136);
     font-family: 'Bodoni MT', serif;
     margin: 0;
-    padding: 0;
+    padding: 10;
   }
   
   header {
@@ -13,11 +13,11 @@ body {
   }
   
   .header-title {
-    font-size: 2em;
+    font-size: 3em;
   }
   
   .main-content {
-    padding: 10px;
+    padding: 5px;
     margin-top: 20px;
   }
   
@@ -25,6 +25,8 @@ body {
     font-size: 1.5em;
     text-align: center;
     margin-bottom: 15px;
+    color: rgb(128, 138, 122);
+    padding-top: 10px;
   }
   
   .flex-container {
@@ -53,13 +55,13 @@ body {
   }
   
   .sub-title {
-    font-size: 1.2em;
+    font-size: 1.5em;
     border-top: 2px solid rgb(177, 162, 136); /* Add a solid line under each h2 */
     padding-top: 30px; /* Optional: Add some spacing between line and text */
   }
   
   .main-text {
-    font-size: 18px;
+    font-size: 20px;
   }
   
   /* Button styles */
@@ -74,13 +76,13 @@ body {
   
   /* Footer styles */
   footer {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: left;
+    margin-top: auto; /* Push footer to the bottom */
+    background-color: rgb(59, 57, 53);
+    color: rgb(177, 162, 136);
     padding: 20px;
+    text-align: left;
   }
-  
+
   @media screen and (max-width: 768px) {
     .flex-container {
       flex-direction: column;
