@@ -18,12 +18,7 @@ body, html {
   
   header h1 {
     font-size: 2.5em;
-  }
-  
-  .header-bar {
-    background-color: rgb(177,162,136);
-    color: rgb(59,57,53);
-    padding: 20px;
+    color: rgb(146, 133, 113);
   }
   
   .welcome-text {
@@ -56,17 +51,7 @@ body, html {
     color: rgb(192,173,133);
   }
   
-  .label {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-  
-  .fa-arrow-down,
-  .fa-arrow-up {
-    font-size: 1.5em;
-    animation: pulse 1.5s infinite alternate;
-  }
+
   
   @keyframes pulse {
     0% {
@@ -127,7 +112,7 @@ body, html {
   }
   
   .button-text {
-    font-size: 1.5em;
+    font-size: 2em;
   }
   
   .design-text {
