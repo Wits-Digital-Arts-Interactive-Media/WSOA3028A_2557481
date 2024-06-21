@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Amy Janse van Vuuren">
-  <meta name="description" content="This is the blog post 7 page of the website displaying the seventh blog post for Amy Janse van Vuuren in the course Interactive Media  ">
+  <meta name="description" content="This is the blog post 7 page of the website displaying the seventh blog post for Amy Janse van Vuuren in the course Interactive Media">
   <meta name="robots" content="index,follow">
   <meta name="keywords" content="Web Development, Game Development, Interactive, Blog, Portfolio, Essay, Design">
-
+  
   <meta property="og:title" content="Amy Janse van Vuuren Portfolio Website">
   <meta property="og:description" content="Welcome to Amy's Portfolio Website, here you can find his portfolio of work, including games, websites, blogs, analysis.">
-    
   <meta property="og:url" content="https://github.com/Wits-Digital-Arts-Interactive-Media/WSOA3028A_2557481">
  
   <script src="../Scripts/navigation.js" defer></script>
@@ -24,107 +24,107 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-<title>WSOA3028A</title>
+  <title>WSOA3028A</title>
 </head>
 
 <body>
+  <header>
+    <h1>WSOA3028A</h1>
+    <nav></nav>
+  </header>
 
-    <header>
-        <h1>WSOA3028A</h1>
-        <nav></nav>
-    </header>
+  <div class="main">
+    <div class="header-container">
+      <a href="../blog-posts/blog-6.html" class="nav-icon"><i class="fa fa-chevron-left" aria-hidden="true" alt="Previous page - blog post 6"></i></a>
+      <h2 class="header-title">BLOG POST 7</h2>
+      <a href="../blog-posts/blog-8.html" class="nav-icon"><i class="fa fa-chevron-right" aria-hidden="true" alt="Next page - blog post 8"></i></a>
+    </div>
 
-    <div class="main">
-      <div class="header-container">
-        <a href="../blog-posts/blog-6.html" class="nav-icon"><i class="fa fa-chevron-left" aria-hidden="true" alt="Previous page - blog post 6"></i></a>
-        <h2 class="header-title">BLOG POST 7</h2>
-        <a href="../blog-posts/blog-8.html" class="nav-icon"><i class="fa fa-chevron-right" aria-hidden="true" alt="Next page - blog post 8"></i></a>
-      </div>
+    <main>
+      <h3><b>Navigation Issues</b></h3>
+      <p>   
+        The intricacies of the JavaScript navigation systems proved to be a formidable challenge in the development of my 
+        website. Despite my efforts, I encountered persistent issues, likely stemming from my folder structure, which impeded the 
+        seamless functionality of the navigation system. Unfortunately, when the index page appeared to function correctly, subsequent 
+        pages faltered, and vice versa. Frustration mounted as I struggled with this inconsistency, realising the pressing need for 
+        a solution.
+      </p>
 
-        <main>
-            <h3><b>Navigation Issues</b></h3>
-                <p>   
-                    The intricacies of the JavaScript navigation systems proved to be a formidable challenge in the development of my 
-                    website. Despite my efforts, I encountered persistent issues, likely stemming from my folder structure, which impeded the 
-                    seamless functionality of the navigation system. Unfortunately, when the index page appeared to function correctly, subsequent 
-                    pages faltered, and vice versa. Frustration mounted as I struggled with this inconsistency, realising the pressing need for 
-                    a solution.
-                </p>
+      <p>
+        Recognising the urgency of the situation, I decided to implement a temporary fix by incorporating buttons to facilitate 
+        navigation. This "fix" ensured that the website remained operational and accessible for assessment purposes. 
+        However, the underlying issue persisted, prompting me to seek further assistance. In light of this, I am committed to 
+        scheduling a consultation with one of the tutors to delve deeper into the complexities of my JavaScript navigation and resolve 
+        the folder structure issues. Through collaboration and guidance, I am confident that I will overcome these 
+        challenges and better the functionality of my website.
+      </p>
 
-                <p>
-                    Recognising the urgency of the situation, I decided to implement a temporary fix by incorporating buttons to facilitate 
-                    navigation. This "fix" ensured that the website remained operational and accessible for assessment purposes. 
-                    However, the underlying issue persisted, prompting me to seek further assistance. In light of this, I am committed to 
-                    scheduling a consultation with one of the tutors to delve deeper into the complexities of my JavaScript navigation and resolve 
-                    the folder structure issues. Through collaboration and guidance, I am confident that I will overcome these 
-                    challenges and better the functionality of my website.
-                </p>
+      <br>
+      <h3><b>JavaScript</b></h3>
+      <p>      
+        The navigation.js code defines an array named navLinks containing objects representing navigation links for my website. The 
+        'createNavigationBar()' function dynamically generates a navigation bar based on the navLinks array, creating list items and 
+        anchor elements for each link. These elements are then appended to a 'nav' element in the HTML document. Finally, the function 
+        is called when the DOM content is fully loaded, ensuring the navigation bar is created dynamically after the HTML content 
+        is parsed.
+      </p>
 
-            <br>
-            <h3><b>JavaScript</b></h3>
-                <p>      
-                    The navigation.js code defines an array named navLinks containing objects representing navigation links for my website. The 
-                    'createNavigationBar()' function dynamically generates a navigation bar based on the navLinks array, creating list items and 
-                    anchor elements for each link. These elements are then appended to a 'nav' element in the HTML document. Finally, the function 
-                    is called when the DOM content is fully loaded, ensuring the navigation bar is created dynamically after the HTML content 
-                    is parsed.
-                </p>
+      <p>    
+        The colour-palette.js code offers functionality to dynamically change and reset the background colour of my webpage. 
+        Initially, it defines a constant originalColor storing the original background colour. Two functions, changeBackgroundColour() 
+        and resetBackgroundColour(), are then introduced. The former selects a random colour from an array of predefined colour values 
+        and sets it as the background colour of the document body. Conversely, the latter restores the original background colour by 
+        assigning the originalColour value to the document body's background colour style property. This code enables the implementation 
+        of an interactive feature where users can experience a variety of background colours by clicking a button, while also having 
+        the option to revert to the default background colour.
+      </p>
 
-                <p>    
-                    The colour-palette.js code offers functionality to dynamically change and reset the background colour of my webpage. 
-                    Initially, it defines a constant originalColor storing the original background colour. Two functions, changeBackgroundColour() 
-                    and resetBackgroundColour(), are then introduced. The former selects a random colour from an array of predefined colour values 
-                    and sets it as the background colour of the document body. Conversely, the latter restores the original background colour by 
-                    assigning the originalColour value to the document body's background colour style property. This code enables the implementation 
-                    of an interactive feature where users can experience a variety of background colours by clicking a button, while also having 
-                    the option to revert to the default background colour.
-                </p>
+      <p>
+        The quote.js code defines an array called quotes, containing several famous quotes from iconic movies. The 
+        generateQuote() function is created to randomly select one of these quotes and display it on my webpage. Within the function, 
+        a random index is generated based on the length of the quotes array, ensuring that it falls within the bounds of the array's 
+        indices. The selected quote is then retrieved from the quotes array using the random index and assigned as the text content 
+        of an HTML element with the ID "quote", effectively updating the displayed quote each time the function is invoked. This code 
+        snippet enables the creation of a simple quote generator feature that adds an element of randomness and entertainment to my
+        webpage, potentially enhancing user engagement and interaction.
+      </p>
 
-                <p>
-                    The quote.js code defines an array called quotes, containing several famous quotes from iconic movies. The 
-                    generateQuote() function is created to randomly select one of these quotes and display it on my webpage. Within the function, 
-                    a random index is generated based on the length of the quotes array, ensuring that it falls within the bounds of the array's 
-                    indices. The selected quote is then retrieved from the quotes array using the random index and assigned as the text content 
-                    of an HTML element with the ID "quote", effectively updating the displayed quote each time the function is invoked. This code 
-                    snippet enables the creation of a simple quote generator feature that adds an element of randomness and entertainment to my
-                    webpage, potentially enhancing user engagement and interaction.
-                </p>
+      <br>
+      <h3><b>Future Fixes</b></h3>
+      <p>   
+        As I review my website, I remain aware of several areas requiring refinement. Among these, my navigation system stands 
+        out as a priority, particularly its visibility and colour scheme. The navigation system's accessibility is compromised by its 
+        inconsistent visibility across pages, creating usability challenges for users. Additionally, the colour scheme employed for 
+        my navigation does not adhere to ethical web design principles, as it fails to ensure easy readability for all users. 
+        While acknowledging these shortcomings, I am committed to addressing them proactively. In an upcoming CSS assignment, I intend 
+        to implement changes to enhance the navigation system's accessibility and visual appeal, aligning it more closely with ethical 
+        design standards.
+      </p>
+      <p>
+        Moreover, I am actively engaged in experimentation to address the navigation system's shortcomings on my website's index page. 
+        Recognising the importance of a seamless navigation experience for users, I am exploring alternative solutions within a 
+        separate file. This approach allows me to isolate the issue and experiment with different strategies to improve the navigation 
+        system's functionality and user-friendliness. By dedicating time and effort to this experimentation process, I am confident in
+        my ability to identify and implement effective solutions that enhance the overall user experience of my website.
+      </p>
+      <p>
+        Also, I have noticed on my deployed page the button that takes users to the next blog post is sometimes working, and sometimes 
+        not.. It works fine when I debug it in visual studios, so I'll need to book a consultation with a tutor for that as well.
+      </p>
+    </main>
 
-            <br>
-            <h3><b>Future Fixes</b></h3>
-                <p>   
-                    As I review my website, I remain aware of several areas requiring refinement. Among these, my navigation system stands 
-                    out as a priority, particularly its visibility and colour scheme. The navigation system's accessibility is compromised by its 
-                    inconsistent visibility across pages, creating usability challenges for users. Additionally, the colour scheme employed for 
-                    my navigation does not adhere to ethical web design principles, as it fails to ensure easy readability for all users. 
-                    While acknowledging these shortcomings, I am committed to addressing them proactively. In an upcoming CSS assignment, I intend 
-                    to implement changes to enhance the navigation system's accessibility and visual appeal, aligning it more closely with ethical 
-                    design standards.
-                </p>
-                <p>
-                    Moreover, I am actively engaged in experimentation to address the navigation system's shortcomings on my website's index page. 
-                    Recognising the importance of a seamless navigation experience for users, I am exploring alternative solutions within a 
-                    separate file. This approach allows me to isolate the issue and experiment with different strategies to improve the navigation 
-                    system's functionality and user-friendliness. By dedicating time and effort to this experimentation process, I am confident in
-                    my ability to identify and implement effective solutions that enhance the overall user experience of my website.
-                </p>
-                <p>
-                    Also, I have noticed on my deployed page the button that takes users to the next blog post is sometimes working, and sometimes 
-                    not.. It works fine when I debug it in visual studios, so I'll need to book a consultation with a tutor for that as well.
-                </p>
-          </div>
+    <div class="scroll-up-button button-set-2">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
 
-          <div class="scroll-up-button button-set-2">
-            <i class="fa fa-arrow-up"></i>
-          </div>
-
-    <footer>
-     <span class="p-name" style="color: rgba(130,141,130,255);"> Amy Janse van Vuuren</span><br>
-     <a class="u-email" href="mailto:fake@gmail.com" style="color: rgba(130,141,130,255);">anyvv9@gmail.com</a><br>
-     <span class="p-org" style="color: rgba(130,141,130,255);">University of the Witwatersrand</span><br>
-     <span class="p-locality" style="color: rgba(130,141,130,255);">Johannesburg</span><br>
-     <span class="p-country-name" style="color: rgba(130,141,130,255);">South Africa</span>
-    </footer>
+  <footer>
+    <span class="p-name" style="color: rgba(130,141,130,255);"> Amy Janse van Vuuren</span><br>
+    <a class="u-email" href="mailto:fake@gmail.com" style="color: rgba(130,141,130,255);">anyvv9@gmail.com</a><br>
+    <span class="p-org" style="color: rgba(130,141,130,255);">University of the Witwatersrand</span><br>
+    <span class="p-locality" style="color: rgba(130,141,130,255);">Johannesburg</span><br>
+    <span class="p-country-name" style="color: rgba(130,141,130,255);">South Africa</span>
+  </footer>
 
 </body>
 </html>

@@ -1,113 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Amy Janse van Vuuren">
   <meta name="description" content="This is the about page of the website displaying the personal information for Amy Janse van Vuuren in the course Interactive Media">
   <meta name="robots" content="index,follow">
   <meta name="keywords" content="Web Development, Game Development, Interactive, Blog, Portfolio, Essay, Design">
-
   <meta property="og:title" content="Amy Janse van Vuuren Portfolio Website">
   <meta property="og:description" content="Welcome to Amy's Portfolio Website, here you can find his portfolio of work, including games, websites, blogs, analysis.">
-    
   <meta property="og:url" content="https://github.com/Wits-Digital-Arts-Interactive-Media/WSOA3028A_2557481">
- 
+  
   <script src="../Scripts/navigation.js" defer></script>
   <script src="../Scripts/scroll-up.js" defer></script>
-
+  
   <link rel="stylesheet" type="text/css" href="../Styles/nav.css">
   <link rel="stylesheet" type="text/css" href="../Styles/move-up.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
   <link rel="stylesheet" href="../Styles/about-styles.css">
-
-  <title>WSOA3028A</title> 
-</head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+  <title>WSOA3028A</title>
+</head> 
 
 <body>
 
-    <header>
-        <h1 class="header-title">WSOA3028A</h1>
-        <nav></nav>
-    </header>
+<header>
+    <h1 class="header-title">WSOA3028A</h1>
+    <nav></nav>
+</header>
 
-    <div class="main">
-        <h2 class="section-title">ABOUT ME</h2>
-        <main class="flex-container">
-            <div class="profile-section">
-                <img class="u-photo" src="../Images/Week 5/Profile.jpg" alt="A photo of Amy in Turkiye" title="Amy Janse van Vuuren"/>
+<div class="main">
+    <h2 class="section-title">ABOUT ME</h2>
+    <main class="flex-container">
+        <div class="profile-section">
+            <img class="u-photo" src="../Images/Week 5/Profile.jpg" alt="A photo of Amy in Turkiye" title="Amy Janse van Vuuren"/>
+        </div>
+
+        <div class="details-section">
+            <h2><b>Good ol' personal details</b></h2>
+            <p>
+                I'm a passionate explorer with an insatiable curiosity for the world around me. Whether it's hiking through breathtaking 
+                landscapes or trying to find my way around a foreign country, I find solace and inspiration in 
+                the beauty of nature and different cultures. Alongside my adventurous spirit, I have a deep appreciation for the arts, 
+                such as the masterpieces of Van Gogh and Monet that evoke profound emotions and stir the imagination. I find joy in bringing laughter and 
+                positivity, delighting in the ability to uplift spirits and forge meaningful
+                connections. And when it comes to competition, I thrive on the exhilarating rush of victory, channeling determination and strategy 
+                to emerge triumphant in any endeavor (it's a blessing and a curse).
+            </p>
+
+            <h2><b>My goals</b></h2>
+            <p>
+                Motivated by a pursuit of excellence, my career aspirations are anchored in the desire to contribute to esteemed 
+                organisations such as Avalanche Studios, renowned for their groundbreaking contributions to the gaming industry. With a 
+                meticulous focus on aesthetic refinement and user-centric design principles, my goal is to develop  interfaces 
+                that seamlessly integrate with captivating gameplay, enriching a player's journey and fostering unforgettable experiences.
+            </p>
+            <p>
+                I love travelling and my biggest fear is to have an office job where I don't enjoy what I do, thus I hope to work remotely and 
+                get opportunities to work all around the world. Whether collaborating with 
+                international teams or immersing myself in different environments, my aim is to cultivate a global network of colleagues and 
+                collaborators, drawing inspiration from the rich tapestry of perspectives and experiences that our world has to offer.
+            </p>
+            <p>
+                In pursuit of academic and professional excellence, I would love to pursue a Ph.D., delving into the depths of interactive 
+                design theory and pushing the boundaries of knowledge within the field. I envision myself contributing to the academic discourse while simultaneously applying my insights to 
+                real-world projects. Through this approach, I aim to bridge the gap between theory and practice, ultimately redefining the 
+                future of interactive entertainment with innovation and expertise.
+            </p>
+
+            <button onclick="revealText()" class="fun-fact-button">
+                Fun fact
+            </button>
+
+            <div id="hiddenText" style="display: none;">
+                <p>
+                    I am a Gemini
+                </p>
             </div>
+        </div>
+    </main>
+</div>
 
-            <div class="details-section">
-                <h2><b>Good ol' personal details</b></h2>
-                <p>
-                    I'm a passionate explorer with an insatiable curiosity for the world around me. Whether it's hiking through breathtaking 
-                    landscapes or trying to find my way around a foreign country, I find solace and inspiration in 
-                    the beauty of nature and different cultures. Alongside my adventurous spirit, I have a deep appreciation for the arts, 
-                    such as the masterpieces of Van Gogh and Monet that evoke profound emotions and stir the imagination. I find joy in bringing laughter and 
-                    positivity, delighting in the ability to uplift spirits and forge meaningful
-                    connections. And when it comes to competition, I thrive on the exhilarating rush of victory, channeling determination and strategy 
-                    to emerge triumphant in any endeavor (it's a blessing and a curse).
-                </p>
+<div class="scroll-up-button button-set-2">
+    <i class="fa fa-arrow-up"></i>
+</div>
 
-                <h2><b>My goals</b></h2>
-                <p>
-                    Motivated by a pursuit of excellence, my career aspirations are anchored in the desire to contribute to esteemed 
-                    organisations such as Avalanche Studios, renowned for their groundbreaking contributions to the gaming industry. With a 
-                    meticulous focus on aesthetic refinement and user-centric design principles, my goal is to develop  interfaces 
-                    that seamlessly integrate with captivating gameplay, enriching a player's journey and fostering unforgettable experiences.
-                </p>
-                <p>
-                    I love travelling and my biggest fear is to have an office job where I don't enjoy what I do, thus I hope to work remotely and 
-                    get opportunities to work all around the world. Whether collaborating with 
-                    international teams or immersing myself in different environments, my aim is to cultivate a global network of colleagues and 
-                    collaborators, drawing inspiration from the rich tapestry of perspectives and experiences that our world has to offer.
-                </p>
-                <p>
-                    In pursuit of academic and professional excellence, I would love to pursue a Ph.D., delving into the depths of interactive 
-                    design theory and pushing the boundaries of knowledge within the field. I envision myself contributing to the academic discourse while simultaneously applying my insights to 
-                    real-world projects. Through this approach, I aim to bridge the gap between theory and practice, ultimately redefining the 
-                    future of interactive entertainment with innovation and expertise.
-                </p>
+<footer>
+    <span class="p-name"> Amy Janse van Vuuren</span><br>
+    <a class="u-email" href="mailto:fake@gmail.com">anyvv9@gmail.com</a><br>
+    <span class="p-org">University of the Witwatersrand</span><br>
+    <span class="p-locality">Johannesburg</span><br>
+    <span class="p-country-name">South Africa</span>
+</footer> 
 
-                <button onclick="revealText()" class="fun-fact-button">
-                  Fun fact
-              </button>
+<script>
+    function revealText() {
+        var hiddenText = document.getElementById("hiddenText");
+    
+        if (hiddenText.style.display === "none" || hiddenText.style.display === "") {
+            hiddenText.style.display = "block";
+        } else {
+            hiddenText.style.display = "none";
+        }
+    }
+</script>
 
-              <div id="hiddenText" style="display: none;">
-                  <p>
-                      I am a Gemini
-                  </p>
-              </div>
-          </div>
-      </main>
-  </div>
-
-    <div class="scroll-up-button button-set-2">
-        <i class="fa fa-arrow-up"></i>
-    </div>
-
-    <footer>
-        <span class="p-name"> Amy Janse van Vuuren</span><br>
-        <a class="u-email" href="mailto:fake@gmail.com">anyvv9@gmail.com</a><br>
-        <span class="p-org">University of the Witwatersrand</span><br>
-        <span class="p-locality">Johannesburg</span><br>
-        <span class="p-country-name">South Africa</span>
-    </footer> 
-
-
-    <script>
-      function revealText() {
-          var hiddenText = document.getElementById("hiddenText");
-      
-          if (hiddenText.style.display === "none" || hiddenText.style.display === "") {
-              hiddenText.style.display = "block";
-          } else {
-              hiddenText.style.display = "none";
-          }
-      }
-  </script>
-  
 </body>
 </html>
+
