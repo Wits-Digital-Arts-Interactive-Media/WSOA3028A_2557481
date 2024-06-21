@@ -1,176 +1,176 @@
 /* Resetting some margins and padding for cleaner layout */
 body, html {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Base styles */
-  body {
-    background-color: rgb(59,57,53);
-    color: rgb(177,162,136);
-    font-family: 'Bodoni MT';
-  }
-  
-  header {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  header h1 {
-    font-size: 2.5em;
-    color: rgb(146, 133, 113);
-  }
-  
-  .welcome-text {
-    text-align: center;
-    font-size: 1.5em;
-  }
-  
-  .website-title {
-    text-align: center;
-    font-size: 3em;
-  }
-  
-  .scroll-down-button,
-  .scroll-up-button {
-    position: fixed;
-    bottom: 10px;
-    left: 5%;
-    transform: translateX(-50%);
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: rgb(59,57,53);
-  }
-  
-  .scroll-up-button {
-    bottom: 10px;
-    right: 5%;
-    left: auto;
-    color: rgb(192,173,133);
-  }
-  
+  margin: 0;
+  padding: 0;
+}
 
-  
-  @keyframes pulse {
-    0% {
-      transform: scale(1.7);
-    }
-    100% {
-      transform: scale(1.1);
-    }
+/* Base styles */
+body {
+  background-color: rgb(59, 57, 53);
+  color: rgb(177, 162, 136);
+  font-family: 'Bodoni MT';
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: rgb(146, 133, 113);
+}
+
+.welcome-text {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.website-title {
+  text-align: center;
+  font-size: 3em;
+}
+
+.scroll-down-button,
+.scroll-up-button {
+  position: fixed;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  color: rgb(59, 57, 53);
+}
+
+.scroll-up-button {
+  right: 5%;
+  left: auto;
+  color: rgb(192, 173, 133);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1.7);
   }
-  
-  .parallax {
-    background-image: url("../Images/CSS/Index/Take5.jpg");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  100% {
+    transform: scale(1.1);
   }
-  
-  .main-content {
-    padding: 5px;
-    margin-top: 30px;
-    min-height: calc(100vh - 150px); /* Adjust based on your footer height */
-    box-sizing: border-box;
-  }
-  
-  .button-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  .button {
-    text-align: center;
-    margin: 10px;
-    box-sizing: border-box;
-    cursor: pointer;
-    flex: 1 1 calc(33% - 40px); /* 3 items per row with margin */
-    max-width: calc(33% - 40px);
-  } 
-  
-  .button p {
-    margin-top: 10px;
-    font-size: 1.2em;
-  }
-  
-  .button img {
-    max-width: 100%;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 2%;
-  }
-  
-  .button img:hover {
-    filter: brightness(80%);
-    transform: scale(1.02);
-  }
-  
-  .button-text {
+}
+
+.parallax {
+  background-image: url("../Images/CSS/Index/Take5.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-content {
+  padding: 5px;
+  margin-top: 30px;
+  min-height: calc(100vh - 150px); /* Adjust based on your footer height */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button {
+  text-align: center;
+  margin: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  flex: 1 1 calc(33% - 40px); /* 3 items per row with margin */
+  max-width: calc(33% - 40px);
+}
+
+.button p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.button img {
+  max-width: 100%;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 2%;
+}
+
+.button img:hover {
+  filter: brightness(80%);
+  transform: scale(1.02);
+}
+
+.button-text {
+  font-size: 2em;
+}
+
+.design-text {
+  color: rgb(192, 173, 133);
+}
+
+.blog-text {
+  color: #838a82;
+}
+
+.about-text {
+  color: #8b885f;
+}
+
+footer {
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+footer span,
+footer a {
+  color: rgba(130, 141, 130, 255);
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  header h1 {
     font-size: 2em;
   }
-  
-  .design-text {
-    color: rgb(192, 173, 133);
+  .welcome-text {
+    font-size: 1.2em;
   }
-  
-  .blog-text {
-    color: #838a82;
+  .website-title {
+    font-size: 2.5em;
   }
-  
-  .about-text {
-    color: #8b885f;
+  .button {
+    flex: 1 1 calc(50% - 40px); /* 2 items per row on medium screens */
+    max-width: calc(50% - 40px);
   }
-  
-  footer {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: left;
-    padding: 20px;
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5em;
   }
-  
-  footer span,
-  footer a {
-    color: rgba(130, 141, 130, 255);
+  .welcome-text {
+    font-size: 1em;
   }
-  
-  /* Media Queries for responsiveness */
-  @media (max-width: 768px) {
-    header h1 {
-      font-size: 2em;
-    }
-    .welcome-text {
-      font-size: 1.2em;
-    }
-    .website-title {
-      font-size: 2.5em;
-    }
-    .button {
-      flex: 1 1 calc(50% - 40px); /* 2 items per row on medium screens */
-      max-width: calc(50% - 40px);
-    }
+  .website-title {
+    font-size: 2em;
   }
-  
-  @media (max-width: 480px) {
-    header h1 {
-      font-size: 1.5em;
-    }
-    .welcome-text {
-      font-size: 1em;
-    }
-    .website-title {
-      font-size: 2em;
-    }
-    .button {
-      flex: 1 1 calc(100% - 40px); /* 1 item per row on small screens */
-      max-width: calc(100% - 40px);
-    }
+  .button {
+    flex: 1 1 calc(100% - 40px); /* 1 item per row on small screens */
+    max-width: calc(100% - 40px);
   }
+}
+
   
   
