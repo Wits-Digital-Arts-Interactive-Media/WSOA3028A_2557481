@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(177,162,136);
+    background-color: rgb(105, 97, 84);
   }
   
   ul {
@@ -18,21 +18,16 @@ ul {
   
   li a {
     display: block;
-    color: rgb(110, 118, 106);
+    color: rgb(177,162,136);
     font-weight: bold;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     padding: 20px 20px;
     text-decoration: none;
   }
   
-  li a:hover {
-    background-color: rgb(59,57,53);
-    color: rgb(126, 136, 120);
-  }
-  
   li a.active {
-    background-color: rgb(59,57,53); 
-    color: rgb(126, 136, 120); 
+    background-color: rgb(105, 97, 84); 
+    color: rgb(177,162,136); 
   }
   
