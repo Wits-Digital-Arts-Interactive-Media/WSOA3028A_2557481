@@ -28,6 +28,7 @@ header {
 
 .main-text {
   font-size: 25px;
+  cursor: pointer;
 }
 
 footer {
