@@ -36,6 +36,10 @@ body {
   position: relative;
 }
 
+.country-button:hover {
+  background-color: #555;
+}
+
 .country-button:hover::after {
   content: 'Click to view';
   position: absolute;
