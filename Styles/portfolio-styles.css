@@ -32,7 +32,7 @@ body {
   padding: 15px 30px;
   margin: 5px;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 30px;
   position: relative;
 }
 
@@ -52,13 +52,13 @@ body {
   display: none;
   margin-top: 20px;
   padding: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 10px;
 }
 
 .image-grid img {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 10px;
 }
 
@@ -89,13 +89,23 @@ body {
   animation: pulse 1.5s infinite alternate;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh; 
+}
+
 footer {
-  color: rgba(130, 141, 130, 255);
+  width: 100%;
+  text-align: left;
+  background-color: rgb(59, 57, 53);
+  color: rgb(177, 162, 136);
+  padding: 20px;
+  margin-top: auto;
 }
 
-footer .u-email {
+footer span,
+footer a {
   color: rgba(130, 141, 130, 255);
 }
-
-
   

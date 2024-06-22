@@ -7,6 +7,7 @@ body {
   background-color: rgb(59, 57, 53);
   color: rgb(177, 162, 136);
   font-family: 'Bodoni MT';
+  font-size: 25px;
 }
 
 header {
@@ -135,6 +136,7 @@ footer {
 footer span,
 footer a {
   color: rgba(130, 141, 130, 255);
+  font-size: 15px;
 }
 
 @media (max-width: 768px) {
