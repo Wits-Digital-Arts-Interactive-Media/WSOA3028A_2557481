@@ -11,6 +11,12 @@ body {
   text-align: center;
 }
 
+.main-text{
+  font-size: 25px;
+  align-self: center;
+  color: rgb(137, 126, 106);
+}
+
 .section-title {
   color: rgb(128, 138, 122);
   text-align: center;
