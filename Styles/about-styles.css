@@ -54,8 +54,10 @@ body {
 
 .fun-fact-button {
     background-color: rgb(128, 138, 122);
-    color: rgb(243, 228, 201);
+    color: rgb(59, 57, 53);
     font-family: 'Bodoni MT';
+    font-size: 15px;
+    font-weight: bold;
     cursor: pointer;
     border: none;
     padding: 10px 20px;
@@ -85,4 +87,12 @@ footer {
     text-align: left;
     padding: 20px 0;
     padding-left: 1%;
+}
+
+#hiddenText {
+    display: none;
+    padding: 20px;
+    background-color: rgb(59, 57, 53);
+    color: rgb(128, 138, 122);
+    font-size: 1.3em;
 }
