@@ -14,7 +14,8 @@
   
   <script src="../Scripts/navigation.js" defer></script>
   <script src="../Scripts/scroll-up.js" defer></script>
-  <script src="../Scripts/reveal-fun-fact.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../Scripts/general-knowledge-api.js" defer ></script>
 
   
   <link rel="stylesheet" type="text/css" href="../Styles/nav.css">
@@ -70,11 +71,19 @@
                 real-world projects. Through this approach, I aim to bridge the gap between theory and practice, ultimately redefining the 
                 future of interactive entertainment with innovation and expertise.
             </p>
+            <p>
+                In addition to my professional pursuits, I have a deep-seated passion for general knowledge and trivia, relishing the 
+                opportunity to delve into diverse subjects and uncover fascinating facts. Whether engaging in spirited debates over historical 
+                events or exploring the latest scientific discoveries, I find immense joy in expanding my understanding of the world around me. 
+                This curiosity fuels my competitive spirit, driving me to continuously seek new challenges and opportunities for intellectual 
+                growth. Embracing both the thrill of competition and the quest for knowledge, I strive to bring a well-rounded perspective to 
+                every endeavor, enriching my interactions and contributions within the global community.
+            </p>
+            <p>
+                So, just for fun, here's a random fun fact.
+            </p>
 
-            <div>
-                <button class="fun-fact-button" onclick="revealText()">FUN FACT</button>
-                <p id="hiddenText" class="hiddenText">I'm a gemini</p>
-            </div>
+            <div id="facts-container" style="color: rgb(128, 138, 122)"></div>
         </div>
     </main>
 </div>
